@@ -80,4 +80,3 @@ print(activation2.output[:5])
 loss = loss_function.calculate(activation2.output, y)
 # Print loss value
 print('Loss:', loss)
-
