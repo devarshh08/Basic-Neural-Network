@@ -11,8 +11,11 @@ This formula returns two arrays X and y, where the data is formed by a pattern i
 Then we create a scatter plot with the spiral data, to show how its distributed.
 
 Now to create the layers of the Neural Network, we have the Layer_Dense function, which takes inputs and neurons as input,
+
 with the help of these inputs and neurons we get the weights and biases to be used in the neural network.
+
 Applying the forward function, we get the output with the formula:
+
 Output = Weights*Inputs + Biases
 
 The we apply the Rectified Linear Activation function and update the output.
